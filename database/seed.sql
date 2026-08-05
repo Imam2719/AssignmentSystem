@@ -1,0 +1,14 @@
+-- NOTE:
+-- Demo users' passwords must be hashed using ASP.NET Core's PasswordHasher<T>,
+-- which isn't reproducible in plain SQL. Sample users, classes, subjects, and
+-- one assignment are therefore seeded automatically the FIRST time the API
+-- starts (see backend/src/AssignmentSystem.Api/Data/DbInitializer.cs).
+--
+-- Demo credentials (created by DbInitializer on first run):
+--   Admin:   admin@school.test   / Admin@123
+--   Teacher: teacher@school.test / Teacher@123
+--   Student: student@school.test / Student@123
+--
+-- This file intentionally contains no INSERT statements for Users.
+-- If you want to seed extra reference data manually (e.g. more classes/subjects)
+-- without touching Users, add INSERT statements below.
