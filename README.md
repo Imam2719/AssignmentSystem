@@ -1,6 +1,7 @@
 # Assignment & Submission Management System
 
 A role-based (Admin / Teacher / Student) full-stack web app for a school/college to manage assignments and submissions.
+<img width="1280" height="714" alt="image" src="https://github.com/user-attachments/assets/2d0ac22e-bbe4-45db-9fbf-7a66992c1b0b" />
 
 ## 1. Overview
 
@@ -132,9 +133,9 @@ Covers deadline enforcement, one-submission-per-student, marks-cannot-exceed-max
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@school.test | Admin@123 |
-| Teacher | teacher@school.test | Teacher@123 |
-| Student | student@school.test | Student@123 |
+| Admin | admin@school.test | 12345 |
+| Teacher | teacher@school.test | 12345 |
+| Student | student@school.test | 12345 |
 
 ## 7. Assumptions
 
